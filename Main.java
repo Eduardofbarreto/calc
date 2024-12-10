@@ -37,9 +37,18 @@ public class Main {
 
         Calcular calcular = new Calcular(); // Correção na instanciação da classe
 
+        //Bloco de cálculos usando classes criadas
         int resultadoSoma = calcular.somar(num1, num2);
+        int resultadoSubtrair = calcular.subtrair(num1, num2);
+        int resultadoMultiplicar = calcular.multiplicar(num1, num2);
+        int resultadoDividir = calcular.dividir(num1, num2);
 
+
+        System.out.print("\n");
         System.out.println("O resultado da soma é: " + resultadoSoma); // Alterar para println
+        System.out.println("O resultado da subtração é: " + resultadoSubtrair);
+
+        System.out.println("\n");
 
         scanner.close();
     }
