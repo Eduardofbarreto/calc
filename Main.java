@@ -30,5 +30,14 @@ public class Main {
         System.out.print("Digite um valor para num2: ");
         float num2 = scanner.nextFloat();
 
+        scanner.close();
+
+        Calcular calcular();
+
+        resultadoSoma = calcular.somar(num1, num2);
+
+        System.out.print(resultadoSoma);
+
+
     }
 }
