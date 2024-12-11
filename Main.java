@@ -47,6 +47,7 @@ public class Main {
         System.out.print("\n");
         System.out.println("O resultado da soma é: " + resultadoSoma); // Alterar para println
         System.out.println("O resultado da subtração é: " + resultadoSubtrair);
+        System.out.println("O resultado da multiplicação é: " + resultadoMultiplicar);
 
         System.out.println("\n");
 
